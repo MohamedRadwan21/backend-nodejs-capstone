@@ -3,7 +3,7 @@ const MongoClient = require('mongodb').MongoClient;
 const fs = require('fs');
 
 // MongoDB connection URL with authentication options
-let url = `${process.env.MONGO_URL}`;
+let url = "mongodb://root:Mjg0MjAtbWFiZGVs@localhost:27017";
 let filename = `${__dirname}/secondChanceItems.json`;
 const dbName = 'secondChance';
 const collectionName = 'secondChanceItems';
